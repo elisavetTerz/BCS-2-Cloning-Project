@@ -20,42 +20,51 @@
     <!-- Header section with image background and Title, Subtitle and Call to action element on top of it -->
     <header id="header" class="navbar-header">
         <!-- navbar -->
-        <nav id="navbar" class="navbar navbar-expand-md bg-light navbar-dark bg-dark">
-            <a class="navbar-brand" href="./index.html">Sunglasses Store
-            </a>
-            <button id="nav-button" class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-              <ul id="page-items" class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-                style="--bs-scroll-height: 100px;">
-                <li class="nav-item">
-                  <a class="nav-link" href="./collection.html">Location</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./collection.html">Collection</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./our-team.html">Our Team</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-
-        <!-- background image -->
-        <section class="background-image">
-            <h1 id="title-background-img">Sunglasses: Unique designs for everyone</h1>
-            <p id="text-background-img">Always in fashion!</p>
-            <button id="button-background-img"><a href="./collection.html" class="button-text">Discover our
-                    collection</a></button>
-            <!-- <img src="images/documerica-FIA9Nz0y3qo-unsplash.jpg" alt="background-image"> -->
-        </section>
+          <nav id="navbar" class="navbar navbar-expand-md bg-light navbar-dark bg-dark">
+              <a class="navbar-brand" href="./index.html">Sunglasses Store
+              </a>
+              <button id="nav-button" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul id="page-items" class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                  style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./location.html">Location</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./gallery.html">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./collection.html">Collection</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./our-team.html">Our Team</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
     </header>
+
+    <!-- main page -->
+    <main id="main-content" class="container">
+        <!-- Gallery section -->
+        <section id="gallery" class="gallery-section">
+            <div class="title">
+                <h2 class="title">Gallery</h2>
+            </div>
+            <div class="gallery-items-grid3">
+                <img src="images/omer-haktan-bulut-e2F2dYhraIQ-unsplash.jpg" alt="item1">
+                <img src="images/omer-haktan-bulut-W525htvQX2Y-unsplash.jpg" alt="item2">
+                <img src="images/ali-karimiboroujeni-GKjgirdlH_0-unsplash.jpg" alt="item3">
+            </div>
+            <div class="gallery-items-grid1">
+                <img src="images/taylor-simpson-_bMrTlb8wQU-unsplash.jpg" alt="item4">
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
@@ -75,5 +84,4 @@
 <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
   
 </body>
-
 </html>
